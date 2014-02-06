@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mikes Pizza website">
+    <meta name="author" content="Christian Bolorinos, John Bolorinos">
+
+    <title>Menu - Mike's Pizza</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Mike's Pizza custom CSS -->
+    <link href="css/mikes-pizza.css" rel="stylesheet">
+ <style>
+   .roundabout-holder {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      height: 20em;
+      width: 50em;
+
+   }
+   .roundabout-moveable-item {
+      height: 20em;
+      width: 20em;
+      cursor: pointer;
+      background-color: #ccc;
+      border: 1px solid #999;
+
+   }
+   .roundabout-moveable-item img {
+				width: 100%;
+				height: 100%;
+			}
+
+   .roundabout-in-focus {
+      cursor: auto;
+   }
+</style> 
+</head>
+
+<body data-spy="scroll">
+
+    <div class="brand">Mike's Pizza</div>
+    <div class="address-bar">14721 Mono Way | Sonora, California 95370
+        <p><a href="tel:1-209-532-1097">(209) 532-1097</a></p></div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Mike's Pizza<p text-align="center"><a href="tel:1-209-532-1097">(209) 532-1097</a></p></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="about.html">About</a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#Pizzas">Pizzas</a></li>
+                        <li><a href="#Sandwiches">Sandwiches</a></li>
+                        <li><a href="#Appetizers">Appetizers</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#Salad">Salad Bar</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center"><strong>Menu</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
+                    <h2 id="Pizzas">Pizzas
+                        <br>
+                        <small>October 13, 2013</small>
+                    </h2>
+                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">
+                    <h2 id="Sandwiches">Sandwiches
+                        <br>
+                        <small>October 13, 2013</small>
+                    </h2>
+                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">
+                    <h2 id="Appetizers">Appetizers
+                        <br>
+                        <small>October 13, 2013</small>
+                    </h2>
+                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+    			<div id="wrap">
+			   <div id="top_padding"></div>
+			      <div id="prew_img">
+			       <ul class="roundabout">
+				<li><img src="img/baconcheeseburger.png" alt="" /><div><h2>Bacon Cheese-Burger</h2></div></li>
+				<li><img src="img/bbqchicken.png" alt="" /><div><h2>BBQ Chicken</h2></div></li>
+				<li><img src="img/combination.png" alt="" /><div><h2>Combination</h2></div></li>
+				<li><img src="img/greek.png" alt="" /><div><h2>Greek</h2></div></li>
+				<li><img src="img/margarita.png" alt="" /><div><h2>Margarita</h2></div></li>
+			       </ul>
+			      </div>
+			   </div>
+			</div>
+
+<!--
+                    <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">-->
+                    <h2 id="Salad">Salad Bar
+                        <br>
+                        <small>October 13, 2013</small>
+                    </h2>
+                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Company 2013</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script type="text/javascript" src="js/jquery.roundabout.js"></script>
+    <script type="text/javascript" src="js/jquery.roundabout-shapes.js"></script>
+	
+   <script>
+   $(document).ready(function() {
+      $('ul.roundabout').roundabout({
+	shape: 'lazySusan'
+      });
+   });
+</script> 
+
+
+</body>
+
+</html>
