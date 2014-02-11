@@ -98,18 +98,6 @@
                         <br>
                         <small>October 13, 2013</small>
                     </h2>
-                    <div id="wrap">
-			   <div id="top_padding"></div>
-			      <div id="prew_img">
-			       <ul class="roundabout">
-				<li><img src="img/baconcheeseburger.png" alt="" /><div><h2>Bacon Cheese-Burger</h2></div></li>
-				<li><img src="img/bbqchicken.png" alt="" /><div><h2>BBQ Chicken</h2></div></li>
-				<li><img src="img/combination.png" alt="" /><div><h2>Combination</h2></div></li>
-				<li><img src="img/greek.png" alt="" /><div><h2>Greek</h2></div></li>
-				<li><img src="img/margarita.png" alt="" /><div><h2>Margarita</h2></div></li>
-			       </ul>
-			      </div>
-			   </div>
                     <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                     <a href="#" class="btn btn-default btn-lg">Read More</a>
                     <hr>
@@ -136,6 +124,18 @@
                 </div>
                 <div class="col-lg-12 text-center">
 		     
+    			<div id="wrap">
+			   <div id="top_padding"></div>
+			      <div id="prew_img">
+			       <ul class="roundabout">
+				<li><img src="img/baconcheeseburger.png" alt="" /><div><h2>Bacon Cheese-Burger</h2></div></li>
+				<li><img src="img/bbqchicken.png" alt="" /><div><h2>BBQ Chicken</h2></div></li>
+				<li><img src="img/combination.png" alt="" /><div><h2>Combination</h2></div></li>
+				<li><img src="img/greek.png" alt="" /><div><h2>Greek</h2></div></li>
+				<li><img src="img/margarita.png" alt="" /><div><h2>Margarita</h2></div></li>
+			       </ul>
+			      </div>
+			   </div>
 			</div>
 		     
 		

@@ -303,7 +303,7 @@ img {
 }
 .img-responsive {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 .img-rounded {
@@ -3699,9 +3699,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
-  background-color: #c59444;
   margin-left: -15px;
-  margin-bottom: 0px;
 }
 @media (min-width: 768px) {
   .container > .navbar-header,
@@ -3749,7 +3747,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
-  margin-bottom: 15px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -3943,15 +3940,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #c59444;
-  border: 3px solid black;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
-  color: black;
+  color: #777;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #f0c173;
+  color: #5e5e5e;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
@@ -3978,17 +3975,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border: 3px solid black;
+  border-color: #ddd;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #f0c173;
+  background-color: #ddd;
 }
 .navbar-default .navbar-toggle .icon-bar {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #f0c173;
+  border-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -5729,6 +5726,15 @@ td.visible-sm {
 
 .float-shadow:before {
   pointer-events: none;
+   display: inherit;
+  text-align: left;
+  margin: 0;
+  padding: 0 0 10px;
+  font-size: 1.25em;
+  text-transform: none;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #c59444;
   position: absolute;
   z-index: -1;
   content: '';

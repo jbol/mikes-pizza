@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Johnny Joints" >
+
+    <title>About - Mike's Pizza</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Mike's Pizza custom CSS -->
+    <link href="css/mikes-pizza.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="brand"><img src=img/logo.png></div>
+    <div class="address-bar">14721 Mono Way | Sonora, California 95370
+        <p><a href="tel:1-209-532-1097" rel="float-shadow" class="button float-shadow">(209) 532-1097</a></p></div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Mike's Pizza<p text-align="center"><a href="tel:1-209-532-1097">(209) 532-1097</a></p></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="about.html">About</a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="menu.html#Pizzas">Pizzas</a></li>
+                        <li><a href="menu.html#Sandwiches">Sandwiches</a></li>
+                        <li><a href="menu.html#Appetizers">Appetizers</a></li>
+                        <li><a href="menu.html#Salad">Salad Bar</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <h2 class="intro-text text-center">About <strong>Mike's Pizza</strong>
+                    </h2>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>Mike's Pizza of Sonora opened it's doors in 2004, using the recipies and menu from our sister location in Angels Camp. We are a family owned and operated business, not a franchise.<br>
+                    Good food, the coldest beer, soft drinks and a fun time are what we offer our customers.<br>
+                    We have a great time sponsoring youth sports in Tuolomne County, from fastpitch softball to youth soccer and basketball. Mike's is always happy to support the team!</p>
+                </div>    
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <a name="awards"><h2 class="intro-text text-center"><strong>Awards</strong></a>
+                    </h2>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="img/union2012.jpg" alt="">
+                    <h3>Best Pizza Award
+                    </h3>
+                    <p>5 time winner of the Union Democrat's Best Pizza Award</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="img/union2009.jpg" alt="">
+                    <h3>Best Runner Up Award
+                    </h3>
+                    <p>Winner of the Union Democrat's Best Runner Up Award</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="img/lodestar2012.jpg" alt="">
+                    <h3>Best Restaurant Award
+                    </h3>
+                    <p>2 time winner of the Sierra Lodestar's Best Restaurant Award</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Mike's Pizza 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
