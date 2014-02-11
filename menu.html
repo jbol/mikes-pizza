@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mikes Pizza website">
-    <meta name="author" content="Christian Bolorinos, John Bolorinos">
+    <meta name="author" content="Johnny Joints" >
 
     <title>Menu - Mike's Pizza</title>
 
@@ -17,19 +17,18 @@
  <style>
    .roundabout-holder {
       list-style: none;
-      padding: 0;
-      margin: 0;
-      height: 20em;
-      width: 50em;
+      padding: 0px;
+      margin-top: 5em;
+      margin-bottom: 15em;
+      height: 100%;
+      width: 100%;
+      background: white;
 
    }
    .roundabout-moveable-item {
       height: 20em;
       width: 20em;
       cursor: pointer;
-      background-color: #ccc;
-      border: 1px solid #999;
-
    }
    .roundabout-moveable-item img {
 				width: 100%;
@@ -38,13 +37,15 @@
 
    .roundabout-in-focus {
       cursor: auto;
+      }
+
    }
 </style> 
 </head>
 
 <body data-spy="scroll">
 
-    <div class="brand">Mike's Pizza</div>
+    <div class="brand"><img src="img/logo.png"></img></div>
     <div class="address-bar">14721 Mono Way | Sonora, California 95370
         <p><a href="tel:1-209-532-1097">(209) 532-1097</a></p></div>
 
@@ -73,7 +74,6 @@
                         <li><a href="#Pizzas">Pizzas</a></li>
                         <li><a href="#Sandwiches">Sandwiches</a></li>
                         <li><a href="#Appetizers">Appetizers</a></li>
-                        <li class="divider"></li>
                         <li><a href="#Salad">Salad Bar</a></li>
                       </ul>
                     </li>
@@ -97,21 +97,73 @@
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
-                    <h2 id="Pizzas">Pizzas
-                        <br>
-                        <small>October 13, 2013</small>
-                    </h2>
+     
+                 <h2 id="Pizzas">Pizzas
+                     <br>
+                     <small>October 13, 2013</small>
+                 </h2>
+						<div class="center-block">               
+		                
+		                	<div class="box">
+		                 	
+		                    <div id="wrap">
+								   <div id="top_padding"></div>
+								      <div id="prew_img">
+								       <ul class="roundabout">
+											<li><img src="img/baconcheeseburger.png" alt="" /><div><h2>Bacon Cheese-Burger</h2></div></li>
+											<li><img src="img/bbqchicken.png" alt="" /><div><h2>BBQ Chicken</h2></div></li>
+											<li><img src="img/combination.png" alt="" /><div><h2>Combination</h2></div></li>
+											<li><img src="img/greek.png" alt="" /><div><h2>Greek</h2></div></li>
+											<li><img src="img/margarita.png" alt="" /><div><h2>Margarita</h2></div></li>
+								       </ul>
+								      </div>
+								  
+								  </div>
+							  
+							</div>							
+							
+						</div>
                     <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                     <a href="#" class="btn btn-default btn-lg">Read More</a>
                     <hr>
+                    
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">
-                    <h2 id="Sandwiches">Sandwiches
+                
+                		<h2 id="Sandwiches">Sandwiches
                         <br>
                         <small>October 13, 2013</small>
                     </h2>
+ 
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
                     <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                     <a href="#" class="btn btn-default btn-lg">Read More</a>
                     <hr>
@@ -127,22 +179,7 @@
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-    			<div id="wrap">
-			   <div id="top_padding"></div>
-			      <div id="prew_img">
-			       <ul class="roundabout">
-				<li><img src="img/baconcheeseburger.png" alt="" /><div><h2>Bacon Cheese-Burger</h2></div></li>
-				<li><img src="img/bbqchicken.png" alt="" /><div><h2>BBQ Chicken</h2></div></li>
-				<li><img src="img/combination.png" alt="" /><div><h2>Combination</h2></div></li>
-				<li><img src="img/greek.png" alt="" /><div><h2>Greek</h2></div></li>
-				<li><img src="img/margarita.png" alt="" /><div><h2>Margarita</h2></div></li>
-			       </ul>
-			      </div>
-			   </div>
-			</div>
-
-<!--
-                    <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">-->
+                    <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">
                     <h2 id="Salad">Salad Bar
                         <br>
                         <small>October 13, 2013</small>
@@ -161,7 +198,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Company 2013</p>
+                    <p>Copyright &copy; Mike's Pizza 2014</p>
                 </div>
             </div>
         </div>
@@ -170,14 +207,28 @@
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
-
+    
+	 <!-- Scripts for Roundabout -->
     <script type="text/javascript" src="js/jquery.roundabout.js"></script>
     <script type="text/javascript" src="js/jquery.roundabout-shapes.js"></script>
+    <script type="text/javascript" src="js/jquery.event.drop-2.2"></script>
+    <script type="text/javascript" src="js/jquery.event.drag-2.2"></script>
 	
    <script>
    $(document).ready(function() {
       $('ul.roundabout').roundabout({
-	shape: 'lazySusan'
+	shape: 'square',
+//	enableDrag: true,
+//	autoplay: true,
+//	autoplayPauseOnHover: true
+	
+	responsive: true
+
+	// make responsive
+//   	$(window).resize(function() {
+//       	$('ul.roundabout').roundabout("relayoutChildren");
+//	});
+
       });
    });
 </script> 
