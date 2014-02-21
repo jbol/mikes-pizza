@@ -1,0 +1,261 @@
+body {
+  background: url(../img/stone1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none;
+  font-family:"Times New Roman", Times, serif;
+  color:#531B00;
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 1.6;
+  color: #f0c173;
+  margin-left: 0px;
+}
+hr {
+  border-color: #999999;
+  max-width: 400px;
+}
+.address-phone {
+  display: inherit;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0 0 10px;
+  font-size: 1.25em;
+  text-transform: none;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #f9ab56;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.brand,
+.address-bar {
+  display: none;
+}
+.address-seo {
+  display: none;
+}
+.address-phone {
+  display: none;
+}
+img.opacity {
+	text-align: center;	
+	opacity: 1;
+	filter: alpha(opacity=50);
+	}	
+	
+img.opacity:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=100);
+	}
+.wrapper {
+	width:100%;
+	height:200px;
+	display: table;
+	}
+.central_head {
+	width:700px;
+	height:200px;
+	background-color: #CCCCCC;
+	display: table-cell;
+	}
+.left_head, .right_head {
+    height:200px;        
+    display: table-cell;
+    background-color:#ABC123;
+}
+.right_head {
+    background-color:#123456;
+}
+
+
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+.navbar-nav {
+  text-transform: none;
+  font-weight: 800;
+}
+
+.img-full {
+  min-width: 100%;
+}
+
+.brand-name {
+  font-weight: 500;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  letter-spacing: normal;
+}
+
+.tagline-divider {
+  margin: 15px auto 3px;
+  border-color: #999999;
+  max-width: 250px;
+}
+
+.box {
+  background: #f9ab56;
+  opacity: 1;
+  border: solid 1px black;
+  margin-bottom: 20px;
+  padding: 15px 15px 15px 15px;
+}
+.boxes {
+  padding: 15px 15px 15px 15px;
+}
+
+.intro-text {
+  text-transform: none;
+  color: #531B00;
+  letter-spacing: 0.25px;
+  font-size: 3.25em;
+  font-weight: 700;
+  text-shadow: 2px 2px #75592B;
+}
+
+.img-border {
+  float: none;
+  margin: 0 auto 0;
+  border: #999999 solid 1px;
+}
+
+.img-left {
+  float: none;
+  margin: 0 auto 0;
+}
+
+footer {
+  background: url(../img/wood.jpg);
+  border: 1px solid #531B00;
+}
+
+footer p {
+  margin: 0;
+   background: url(../img/wood.jpg);
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 992px) {
+  p{
+margin-left: 15px;	
+	}
+}
+@media screen and (min-width: 768px) {
+
+.brand {
+  display: inherit;
+  font-weight: 700;
+  font-size: 5em;
+  line-height: normal;
+  text-align: center;
+  color: #f9ab56;
+  margin: 0;
+  padding: 30px 0 10px;
+  text-shadow: 3px 3px 2px black;
+}
+
+.top-divider {
+  margin-top: 0;
+}
+
+.img-left {
+  float: left;
+  margin-right: 25px;
+}
+.address-seo {
+  display: inherit;
+  text-align: right;
+}
+.address-bar {
+  display: inherit;
+  text-align: left;
+  margin: 0;
+  padding: 0 0 10px;
+  font-size: 1.25em;
+  text-transform: none;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #f9ab56;
+  text-shadow: 1px 1px 2px black;
+
+}
+.address-phone {
+  display: inherit;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0 0 10px;
+  font-size: 1.25em;
+  text-transform: none;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #f9ab56;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+img.opacity {
+	opacity: 1;
+	filter: alpha(opacity=50);
+	}	
+	
+img.opacity:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=100);
+	}
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-header {
+  display: none;
+}
+
+.navbar {
+  min-height: 0;
+}
+
+.navbar-default {
+  background: none;
+  border: none;
+  z-index: 1;
+}
+
+.nav>li>a {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar-nav>li>a {
+  line-height: normal;
+}
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+  font-size: 1.25em;
+}
+.box {
+        background: url(img/wood.jpg);
+        box-shadow: 10px 10px 5px black;
+      }
+}
+
+@media screen and (min-width: 1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}

@@ -1,5 +1,5 @@
 body {
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  background: url(../img/stone1.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,14 +9,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
   text-transform: none;
   font-family:"Times New Roman", Times, serif;
-  font-weight: 900;
-  color:black;
+  color:#531B00;
 }
 
 p {
+  
   font-size: 1.25em;
   line-height: 1.6;
-  color: #000;
+  color: #f0c173;
   margin-left: 0px;
 }
 hr {
@@ -32,7 +32,7 @@ hr {
   text-transform: none;
   letter-spacing: 3px;
   font-weight: 700;
-  color: #c59444;
+  color: #f9ab56;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 .brand,
@@ -92,7 +92,7 @@ img.opacity:hover {
 }
 
 .brand-name {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.5em;
   text-transform: capitalize;
   letter-spacing: normal;
@@ -105,28 +105,24 @@ img.opacity:hover {
 }
 
 .box {
-  background: #c59444;
-  opacity: 0.9;
-  border: solid 3px black;
+  background: url(../img/wood.jpg);
+  opacity: 1;
+  box-shadow: 10px 10px 5px black;
+  border: solid 1px black;
   margin-bottom: 20px;
   padding: 15px 15px 15px 15px;
 }
-.box2 {
+.boxes {
   padding: 15px 15px 15px 15px;
-}
-.box3 {
-  padding: 15px 15px 15px 15px;
-  background-color: red;
 }
 
 .intro-text {
   text-transform: none;
-  color: #DEA341;
+  color: #531B00;
   letter-spacing: 0.25px;
   font-size: 3.25em;
   font-weight: 700;
   text-shadow: 2px 2px #75592B;
-  background-color: black;
 }
 
 .img-border {
@@ -141,28 +137,30 @@ img.opacity:hover {
 }
 
 footer {
-  background: #c59444;
-  opacity: 0.9;
-  border: 3px solid black;
+  background: url(../img/wood.jpg);
+  border: 1px solid #531B00;
 }
 
 footer p {
   margin: 0;
+   background: url(../img/wood.jpg);
   padding: 10px 0;
 }
 
-@media screen and (min-width: 768px) {
-
-p{
+@media screen and (min-width: 992px) {
+  p{
 margin-left: 15px;	
 	}
+}
+@media screen and (min-width: 768px) {
+
 .brand {
   display: inherit;
   font-weight: 700;
   font-size: 5em;
   line-height: normal;
   text-align: center;
-  color: #c59444;
+  color: #f9ab56;
   margin: 0;
   padding: 30px 0 10px;
   text-shadow: 3px 3px 2px black;
@@ -189,8 +187,9 @@ margin-left: 15px;
   text-transform: none;
   letter-spacing: 3px;
   font-weight: 700;
-  color: #c59444;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  color: #f9ab56;
+  text-shadow: 1px 1px 2px black;
+
 }
 .address-phone {
   display: inherit;
@@ -201,7 +200,7 @@ margin-left: 15px;
   text-transform: none;
   letter-spacing: 3px;
   font-weight: 700;
-  color: #c59444;
+  color: #f9ab56;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -228,16 +227,14 @@ img.opacity:hover {
 }
 
 .navbar-default {
-  background: #fff;
-  background: #c59544;
+  background: none;
   border: none;
-  opacity: 0.9;
-  border: 3px solid black;
   z-index: 1;
 }
 
 .nav>li>a {
-  padding: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .navbar-nav>li>a {
@@ -251,7 +248,9 @@ img.opacity:hover {
   table-layout: fixed;
   font-size: 1.25em;
 }
-
+.box {
+        box-shadow: 10px 10px 5px black;
+      }
 }
 
 @media screen and (min-width: 1200px) {
